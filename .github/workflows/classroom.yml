@@ -44,8 +44,8 @@ jobs:
         test-name: TC03
         setup-command: ''
         command: bash ./calculate.sh
-        input: '1212120'
-        expected-output: '126'
+        input: '9234'
+        expected-output: '0'
         comparison-method: exact
         timeout: 10
         max-score: 20
