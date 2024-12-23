@@ -1,7 +1,5 @@
 package org.example;
-
 import java.util.Scanner;
-
 public class NumberFeature {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -16,7 +14,6 @@ public class NumberFeature {
         }
         scanner.close();
     }
-
     private static int calculateParityFeature(int number) {
         int result = 0;
         int position = 1; // 数位编号，从个位开始为1
