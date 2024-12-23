@@ -5,7 +5,7 @@ export LC_ALL=en_US.UTF-8
 
 SRC_DIR="./src/main/java"
 PACKAGE="org/example"
-CLASS_NAME="NumberFeature"
+CLASS_NAME="UTC"
 CLASS_PATH="$SRC_DIR/$PACKAGE/$CLASS_NAME.java"
 if [ -f "$CLASS_PATH" ]; then
     javac -d "$SRC_DIR" "$CLASS_PATH"
